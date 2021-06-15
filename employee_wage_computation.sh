@@ -10,7 +10,6 @@ fi
 wage_per_hour=20 
 full_day=8
 part_time_hour=8 
-part_time_employee_wage=$(($wage_per_hour * $part_time_hour))
 read -p "Enter what wage you want to calculate 1. full time 2. part time" choice
 	case $choice in
 	1)wage=$(($wage_per_hour * $full_day))
