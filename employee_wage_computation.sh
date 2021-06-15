@@ -9,5 +9,7 @@ echo "Employee is Present "
 fi 
 wage_per_hour=20 
 full_day=8
-part_time_hour=8 
 wage=$(($wage_per_hour * $full_day)) 
+read -p "Add part time hour"part_time_hour
+case $part_time_hour
+esac
