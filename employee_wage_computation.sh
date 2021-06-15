@@ -1,5 +1,7 @@
 #!/bin/bash -x
-echo "Welcome to Wage Computation Program" 
+function employee()
+{
+echo "Welcome to Wage Computation Program"
 random_check=$((RANDOM%2)) 
 if [ $random_check -eq 0 ] 
 then 
@@ -36,4 +38,5 @@ read -p "Enter what wage you want to calculate 1. full time 2. part time" choice
 	fi
 		;;
 esac
-
+}
+employee $total_wrk_hrs
