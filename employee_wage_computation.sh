@@ -10,6 +10,6 @@ fi
 wage_per_hour=20 
 full_day=8
 wage=$(($wage_per_hour * $full_day)) 
-read -p "Add part time hour"part_time_hour
-case $part_time_hour
+read -p "Calculate Wage"$wage
+case $wage
 esac
