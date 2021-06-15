@@ -22,6 +22,7 @@ read -p "Enter what wage you want to calculate 1. full time 2. part time" choice
 	then
 	wage_for_month_full=$(($wage * $total_wrk_day))
 	echo "Wage for a month for full time $wage_for_month_full"
+	echo "Daily wage is $wage"
 	else
 	exit
 	fi
@@ -33,6 +34,7 @@ read -p "Enter what wage you want to calculate 1. full time 2. part time" choice
         then
 	wage_for_month_part=$(($part_time_employee_wage * $total_wrk_day))
 	echo "Wage for a month for part time $wage_for_month_part"
+	echo "Daily wage is $part_time_employee_wage"
 	else
 	exit
 	fi
