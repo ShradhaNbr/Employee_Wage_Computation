@@ -11,3 +11,4 @@ wage_per_hour=20
 full_day=8
 part_time_hour=8 
 wage=$(($wage_per_hour * $full_day)) 
+part_time_employee_wage=$(($wage_per_hour * $part_time_hour))
